@@ -15,6 +15,6 @@ const handleOnConnection = () => {
   throw new Error('failed on starting server');
 };
 
-server.listen(process.env.PORT || 8000, handleOnConnection);
+server.listen(process.env.PORT || 8003, handleOnConnection);
 
 export default server;
